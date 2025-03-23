@@ -1,0 +1,50 @@
+/* Inline styling for simplicity */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('BLUE SKIES.jpg');
+      background-size: cover;
+      color: white;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Navigation bar */
+    nav {
+      background-color: black;
+      overflow: hidden;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+
+    img {
+      max-width: 80%;
+      height: auto;
+      margin: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: black;
+      color: white;
+    }
